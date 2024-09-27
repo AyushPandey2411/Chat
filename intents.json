@@ -1,0 +1,211 @@
+{
+    "intents": [
+      {
+        "tag": "greeting",
+        "patterns": ["Hi there", "How are you", "Is anyone there?", "Hey", "Hola", "Hello", "Good day"],
+        "responses": ["Hello, welcome to the National Philatelist Platform!", "Good to see you, how can we assist in your philatelic journey?", "Hi, explore philatelic treasures from all over India with us!"],
+        "context": [""]
+      },
+      {
+        "tag": "goodbye",
+        "patterns": ["Bye", "See you later", "Goodbye", "Nice chatting to you, bye", "Till next time"],
+        "responses": ["Goodbye, happy collecting!", "Have a nice day, and return soon for the latest philatelic updates!", "Bye! Don't miss out on new releases!"],
+        "context": [""]
+      },
+      {
+        "tag": "thanks",
+        "patterns": ["Thanks", "Thank you", "That's helpful", "Awesome, thanks", "Thanks for helping me"],
+        "responses": ["You're welcome! Happy to assist you in your philatelic quest.", "My pleasure! Let us know if you need more help collecting stamps and postal items."],
+        "context": [""]
+      },
+      {
+        "tag": "national_deposit_account",
+        "patterns": ["What is the National Philately Deposit Account?", "How can I open a Philately Deposit Account?", "Benefits of Philately Deposit Account?", "Tell me about the Philately Account"],
+        "responses": ["The National Philately Deposit Account allows philatelists to access material released across India. Sign up at [insert link] for nationwide access to philatelic items, cancellations, and more."],
+        "context": [""]
+      },
+      {
+        "tag": "philatelic_material",
+        "patterns": ["What new philatelic material is available?", "What items are being released?", "What is the latest philatelic release?", "Tell me about new philatelic items"],
+        "responses": ["The latest philatelic releases are available from all postal circles. Visit [insert link] to explore and order your favorite items."],
+        "context": [""]
+      },
+      {
+        "tag": "postal_circles",
+        "patterns": ["What are the postal circles?", "Which postal circles release philatelic items?", "How do postal circles work?", "Tell me about postal circles in India"],
+        "responses": ["Postal circles in India are regions designated by the postal service for operational purposes. Each postal circle releases its own philatelic material, now accessible nationwide through our website."],
+        "context": [""]
+      },
+      {
+        "tag": "ordering_process",
+        "patterns": ["How can I order philatelic items?", "What is the ordering process?", "Can I order philatelic material online?", "How do I buy philatelic items from other circles?"],
+        "responses": ["You can order philatelic items from any postal circle in India through our centralized platform. Add items to your cart and proceed to checkout to pay and arrange for delivery."],
+        "context": [""]
+      },
+      {
+        "tag": "payment_options",
+        "patterns": ["What payment methods are accepted?", "How do I pay for philatelic material?", "What are the payment options?", "Can I pay online for philatelic items?"],
+        "responses": ["We accept a variety of payment methods including credit cards, debit cards, and online banking. Simply select your preferred method at checkout to complete your purchase."],
+        "context": [""]
+      },
+      {
+        "tag": "cancellation_releases",
+        "patterns": ["What are cancellation releases?", "Can I get postal cancellations?", "What is a postal cancellation?", "How do I get cancellation releases on postal stationery?"],
+        "responses": ["Cancellation releases refer to the markings applied to postal items, making them unique collectibles. You can order postal stationery with cancellations through our website for a nominal fee."],
+        "context": [""]
+      },
+      {
+        "tag": "standard_postal_services",
+        "patterns": ["What is the postage for ordered items?", "How much is shipping for philatelic items?", "What postal services do you use?", "What is the postage fee?"],
+        "responses": ["Postage for ordered items is charged at standard rates for Registered or Speedpost services, ensuring reliable and secure delivery."],
+        "context": [""]
+      },
+      {
+        "tag": "philatelic_events",
+        "patterns": ["Are there any philatelic events?", "What are the upcoming stamp exhibitions?", "Tell me about philatelic fairs", "Are there philatelic exhibitions happening soon?"],
+        "responses": ["Upcoming philatelic events includes National Philatelic Exhibition,FIP World Stamp Championship Specialized Exhibition. Visit our events section to stay updated!"],
+        "context": [""]
+      },
+      {
+        "tag": "account_benefits",
+        "patterns": ["What are the benefits of having a Philately Deposit Account?", "Why should I open a Philately Deposit Account?", "What do I get with a Philately Account?"],
+        "responses": ["A National Philately Deposit Account provides you with access to exclusive philatelic material from across India, special cancellation releases, and priority ordering of limited-edition items."],
+        "context": [""]
+      },
+      {
+        "tag": "account_signup",
+        "patterns": ["How do I create a Philately Account?", "Where do I sign up for the Philately Account?", "How can I register for a Philately Deposit Account?", "Tell me how to open a Philately Account"],
+        "responses": ["You can sign up for a National Philately Deposit Account by visiting link and following the registration process. Once approved, you will gain access to philatelic material nationwide."],
+        "context": [""]
+      },
+      {
+        "tag": "philately_support",
+        "patterns": ["How can I get help with my Philately Account?", "Who can I contact for support?", "Where can I get assistance for philatelic issues?", "I need help with my account"],
+        "responses": ["For any issues with your account or assistance with philatelic material, please contact our support team at Contact Section. We're here to help!"],
+        "context": [""]
+      },
+
+      {
+        "tag": "rare_stamps",
+        "patterns": ["Where can I find rare stamps?", "How do I purchase rare stamps?", "What are the rarest philatelic items?", "Can you help me find rare stamps?", "Where can I locate unique philatelic items?"],
+        "responses": ["Rare stamps are periodically released by postal circles and available for purchase through our platform. Visit [insert link] to explore our rare collection and stay updated on upcoming releases."],
+        "context": [""]
+      },
+      {
+        "tag": "limited_edition_items",
+        "patterns": ["How do I order limited-edition items?", "What limited-edition philatelic items are available?", "Are there any exclusive stamps or covers?", "Tell me about the latest limited-edition philatelic items."],
+        "responses": ["Limited-edition philatelic items, such as commemorative covers and special stamps, are available for a short time. Visit [insert link] to view current and upcoming limited releases."],
+        "context": [""]
+      },
+      {
+        "tag": "collection_management",
+        "patterns": ["How can I manage my philatelic collection?", "Do you have tools for organizing stamp collections?", "Can I track my collection on this platform?", "How do I keep track of my philatelic items?"],
+        "responses": ["You can manage and track your philatelic collection using our built-in tools. Log in to your account to organize, categorize, and keep an inventory of your stamps and covers."],
+        "context": [""]
+      },
+      {
+        "tag": "item_availability",
+        "patterns": ["Is this item available?", "Are philatelic items still in stock?", "Can I check item availability?", "Are rare stamps still available?", "Can I order out-of-stock items?"],
+        "responses": ["Item availability can be checked on the product page. For out-of-stock items, sign up for notifications to be alerted when they become available again."],
+        "context": [""]
+      },
+      {
+        "tag": "philatelic_news",
+        "patterns": ["What's the latest philatelic news?", "Are there any updates on philately?", "Tell me the latest news about philately.", "Any recent announcements in the philatelic world?"],
+        "responses": ["For the latest news, events, and updates in the philatelic world, visit our 'News' section or subscribe to our newsletter for timely updates."],
+        "context": [""]
+      },
+      {
+        "tag": "philatelic_clubs",
+        "patterns": ["Are there any philatelic clubs I can join?", "How do I join a philatelic club?", "Tell me about philatelic communities.", "Can you connect me with other philatelists?", "Is there a philatelic group I can be part of?"],
+        "responses": ["Join our online philatelic community to connect with fellow collectors, share knowledge, and participate in club activities. Visit [insert link] to join a philatelic club near you."],
+        "context": [""]
+      },
+      {
+        "tag": "event_registration",
+        "patterns": ["How do I register for a philatelic event?", "Can I sign up for an exhibition?", "How do I participate in a philatelic fair?", "Is there a registration process for philatelic events?"],
+        "responses": ["You can register for upcoming philatelic events through our website. Visit the 'Events' section to view upcoming fairs and exhibitions and sign up for participation."],
+        "context": [""]
+      },
+      {
+        "tag": "order_tracking",
+        "patterns": ["How can I track my order?", "Where is my order?", "Can I check my order status?", "Tell me the status of my philatelic order."],
+        "responses": ["You can track your order by logging into your account and visiting the 'Orders' section. All updates on shipping and delivery will be displayed there."],
+        "context": [""]
+      },
+      {
+        "tag": "international_shipping",
+        "patterns": ["Do you ship internationally?", "Can I order from outside India?", "How much is international shipping?", "Can you send philatelic items abroad?"],
+        "responses": ["Yes, we offer international shipping. Charges may vary based on location and the items ordered. Please visit the shipping section during checkout for more details."],
+        "context": [""]
+      },
+      {
+        "tag": "custom_cancellations",
+        "patterns": ["Can I order custom cancellations?", "How do I get customized postal cancellations?", "Can I request a special cancellation design?", "Is there a way to get personalized cancellations?"],
+        "responses": ["Yes, we offer custom postal cancellations for special occasions and events. Contact our support team to learn more about requesting personalized cancellations."],
+        "context": [""]
+      },
+
+      {
+        "tag": "stamp_valuation",
+        "patterns": ["How can I get my stamps valued?", "What's the value of my stamps?", "Where can I get my stamp collection appraised?", "Can you help me with stamp valuation?"],
+        "responses": ["We offer stamp valuation services through our network of experts. Please visit [insert link] for details on getting your collection appraised."],
+        "context": [""]
+      },
+      {
+        "tag": "authentication_services",
+        "patterns": ["How can I authenticate my stamps?", "Do you provide stamp authentication?", "Can I verify the authenticity of my stamps?", "Where can I get my stamps authenticated?"],
+        "responses": ["Our platform offers stamp authentication services through certified experts. Visit [insert link] to learn more and authenticate your philatelic items."],
+        "context": [""]
+      },
+      {
+        "tag": "philatelic_education",
+        "patterns": ["How can I learn more about philately?", "Are there resources to learn about stamp collecting?", "Do you offer courses on philately?", "Where can I study philately?"],
+        "responses": ["We provide a wide range of resources to help you learn about philately, including articles, tutorials, and expert-led courses. Visit our education section at [insert link]."],
+        "context": [""]
+      },
+      {
+        "tag": "philatelic_auctions",
+        "patterns": ["Are there any stamp auctions?", "How can I participate in philatelic auctions?", "Where can I find stamp auctions?", "Tell me about upcoming stamp auctions."],
+        "responses": ["Philatelic auctions are held regularly on our platform. Check our 'Auctions' section for upcoming events and details on how to participate."],
+        "context": [""]
+      },
+      {
+        "tag": "philatelic_terms",
+        "patterns": ["What does perforation mean in philately?", "Can you explain common philatelic terms?", "What is a first-day cover?", "Tell me about stamp grading and perforation."],
+        "responses": ["Philately has its own specialized terminology. Visit our glossary at [insert link] to learn about terms like perforation, first-day covers, and more."],
+        "context": [""]
+      },
+      {
+        "tag": "philately_history",
+        "patterns": ["What is the history of philately?", "How did stamp collecting start?", "Tell me about the origins of philately.", "Where can I learn about philately's history?"],
+        "responses": ["Philately has a rich history dating back to the 19th century. Explore our 'History of Philately' section at [insert link] to learn about the origins and evolution of stamp collecting."],
+        "context": [""]
+      },
+      {
+        "tag": "philatelic_literature",
+        "patterns": ["Can you recommend books on philately?", "Where can I find philatelic literature?", "Are there any publications about stamp collecting?", "Tell me about philatelic books and magazines."],
+        "responses": ["Our platform offers a wide selection of philatelic literature, including books, magazines, and journals. Visit [insert link] to explore our collection."],
+        "context": [""]
+      },
+      {
+        "tag": "investment_in_philately",
+        "patterns": ["Is philately a good investment?", "Can I invest in stamps?", "How do I invest in philatelic items?", "Is stamp collecting profitable?"],
+        "responses": ["Philately can be a valuable investment, with certain rare stamps appreciating in value over time. Consult our expert guides on investing in philatelic items at [insert link]."],
+        "context": [""]
+      },
+      {
+        "tag": "philatelic_forums",
+        "patterns": ["Are there forums for philatelists?", "Can I join discussions on stamp collecting?", "Where can I ask questions about philately?", "Tell me about philatelic forums."],
+        "responses": ["Join our online philatelic forums to connect with collectors, ask questions, and share knowledge. Visit [insert link] to become part of the conversation."],
+        "context": [""]
+      },
+      {
+        "tag": "philatelic_grading",
+        "patterns": ["How are stamps graded?", "What is the grading process for stamps?", "Can I get my stamps graded?", "Tell me about philatelic grading standards."],
+        "responses": ["Stamps are graded based on factors like condition, rarity, and demand. Visit our grading section at [insert link] to learn about the process and submit your stamps for grading."],
+        "context": [""]
+      }
+    ]
+  }
+  
